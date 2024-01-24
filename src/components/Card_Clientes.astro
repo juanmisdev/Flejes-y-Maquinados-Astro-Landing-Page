@@ -1,14 +1,24 @@
 ---
+import type { ImageMetadata } from 'astro';
+import { Image } from 'astro:assets';
+
 interface Props{
-    imagen: string
-    nombre: string
-    descripcion: string
+    imagen: string;
+    nombre: string;
+    descripcion: string;
 }
 
-const {imagen, nombre, descripcion} = Astro.props
+const {imagen, nombre, descripcion} = Astro.props;
+const images = import.meta.glob<{ default: ImageMetadata }>('/src/images/*.{jpeg,jpg,png,gif}');
+if (!images[imagen]) throw new Error(`"${imagen}" does not exist in glob: "src/images/*.{jpeg,jpg,png,gif}"`);
+
+
 ---
+
+
+
 <div class="flex flex-col">
-    <img src={imagen} alt="logo empresa" class="w-24 mx-auto mb-5">
+    <Image src={images[imagen]()} alt="logo empresa" class="w-24 mx-auto mb-5"/>
     <h2 class="font-bold text-xl mx-5 text-center mb-2">{nombre}</h2>
     <p class="text-sm text-zinc-500 mb-5 mx-5 text-center">{descripcion}</p>
 </div>

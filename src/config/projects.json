@@ -1,122 +1,122 @@
 [
     {
-        "imagen": "../../images/projects/el_canasto_itagui.jpg",
+        "imagen": "/src/images/projects/el_canasto_itagui.jpg",
         "nombre": "Bodega El Canasto",
         "Ciudad": "Itagüi"
     },
     {
-        "imagen": "../../images/projects/el_canasto_la_paz_sincelejo.jpeg",
+        "imagen": "/src/images/projects/el_canasto_la_paz_sincelejo.jpeg",
         "nombre": "Bodega El Canasto",
         "Ciudad": "Sincelejo"
     },
     {
-        "imagen": "../../images/projects/el_canasto_rioacha.jpg",
+        "imagen": "/src/images/projects/el_canasto_rioacha.jpg",
         "nombre": "Bodega El Canasto",
         "Ciudad": "Rioacha"
     },
     {
-        "imagen": "../../images/projects/el_canasto_Yumbo.jpg",
+        "imagen": "/src/images/projects/el_canasto_Yumbo.jpg",
         "nombre": "Bodega El Canasto",
         "Ciudad": "Yumbo"
     },
     {
-        "imagen": "../../images/projects/centro_logistico_global_logistics.jpeg",
+        "imagen": "/src/images/projects/centro_logistico_global_logistics.jpeg",
         "nombre": "Global Logistics",
         "Ciudad": "Pereira"
     },
     {
-        "imagen": "../../images/projects/centro_logistico_global_logistic2.jpeg",
+        "imagen": "/src/images/projects/centro_logistico_global_logistic2.jpeg",
         "nombre": "Districascos",
         "Ciudad": "Pereira"
     },
     {
-        "imagen": "../../images/projects/droaliados.jpeg",
+        "imagen": "/src/images/projects/droaliados.jpeg",
         "nombre": "Droaliados",
         "Ciudad": "Armenia"
     },
     {
-        "imagen": "../../images/projects/districascos_puerta.jpeg",
+        "imagen": "/src/images/projects/districascos_puerta.jpeg",
         "nombre": "Districascos",
         "Ciudad": "Pereira"
     },
     {
-        "imagen": "../../images/projects/districascos_cabina.jpeg",
+        "imagen": "/src/images/projects/districascos_cabina.jpeg",
         "nombre": "Cabina de Pintura",
         "Ciudad": "Districascos | Pereira"
     },
     {
-        "imagen": "../../images/projects/canasto_cortina.jpeg",
+        "imagen": "/src/images/projects/canasto_cortina.jpeg",
         "nombre": "El canasto",
         "Ciudad": "Yumbo"
     },
     {
-        "imagen": "../../images/projects/cucuta_ara.jpeg",
+        "imagen": "/src/images/projects/cucuta_ara.jpeg",
         "nombre": "Tiendas Ara",
         "Ciudad": "Cúcuta"
     },
     {
-        "imagen": "../../images/projects/palmira_canasto.jpeg",
+        "imagen": "/src/images/projects/palmira_canasto.jpeg",
         "nombre": "El canasto",
         "Ciudad": "Palmira"
     },
     {
-        "imagen": "../../images/projects/carepa_ara.png",
+        "imagen": "/src/images/projects/carepa_ara.png",
         "nombre": "Tiendas Ara",
         "Ciudad": "Carepa"
     },
     {
-        "imagen": "../../images/projects/carepa_ara2.png",
+        "imagen": "/src/images/projects/carepa_ara2.png",
         "nombre": "Tiendas Ara",
         "Ciudad": "Carepa"
     },
     {
-        "imagen": "../../images/projects/cucuta_ara2.jpeg",
+        "imagen": "/src/images/projects/cucuta_ara2.jpeg",
         "nombre": "Tiendas Ara",
         "Ciudad": "Cúcuta"
     },
     {
-        "imagen": "../../images/projects/ara_magdalena.jpeg",
+        "imagen": "/src/images/projects/ara_magdalena.jpeg",
         "nombre": "Tiendas Ara",
         "Ciudad": "Cúcuta"
     },
     {
-        "imagen": "../../images/projects/ara_cali.jpg",
+        "imagen": "/src/images/projects/ara_cali.jpg",
         "nombre": "Tiendas Ara",
         "Ciudad": "Cali"
     },
     {
-        "imagen": "../../images/projects/ara_cali2.jpg",
+        "imagen": "/src/images/projects/ara_cali2.jpg",
         "nombre": "Tiendas Ara",
         "Ciudad": "Cali"
     },
     {
-        "imagen": "../../images/projects/ara_cali3.jpg",
+        "imagen": "/src/images/projects/ara_cali3.jpg",
         "nombre": "Tiendas Ara",
         "Ciudad": "Cali"
     },
     {
-        "imagen": "../../images/projects/ara_cali4.jpg",
+        "imagen": "/src/images/projects/ara_cali4.jpg",
         "nombre": "Tiendas Ara",
         "Ciudad": "Cali"
     },
     {
         
-        "imagen": "../../images/projects/ara_jamundi.jpg",
+        "imagen": "/src/images/projects/ara_jamundi.jpg",
         "nombre": "Tiendas Ara",
         "Ciudad": "Jamundí"
     },
     {
-        "imagen": "../../images/projects/ara_curumani.jpg",
+        "imagen": "/src/images/projects/ara_curumani.jpg",
         "nombre": "Tiendas Ara",
         "Ciudad": "Curumaní"
     },
     {
-        "imagen": "../../images/projects/ara_cartago.jpg",
+        "imagen": "/src/images/projects/ara_cartago.jpg",
         "nombre": "Tiendas Ara",
         "Ciudad": "Cartago"
     },
     {
-        "imagen": "../../images/projects/ara_buga.jpg",
+        "imagen": "/src/images/projects/ara_buga.jpg",
         "nombre": "Tiendas Ara",
         "Ciudad": "Buga"
     }
