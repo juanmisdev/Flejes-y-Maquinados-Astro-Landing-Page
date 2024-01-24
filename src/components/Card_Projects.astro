@@ -1,0 +1,17 @@
+---
+interface Props {
+    imagen: string;
+    nombre: string;
+    ciudad: string;
+}
+
+const {imagen, nombre, ciudad} = Astro.props;
+---
+
+<div class="relative group">
+    <img src={imagen} alt="Foto proyecto" class="object-fill w-56 h-56 transition-opacity duration-500 ease-in-out group-hover:opacity-20">
+    <div class=" w-56 h-56 absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
+        <h2 class="text-blue-950 font-bold">{nombre}</h2>
+        <p class="text-blue-950 font-semibold">{ciudad}</p>
+    </div>
+</div>

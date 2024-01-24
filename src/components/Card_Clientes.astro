@@ -1,0 +1,14 @@
+---
+interface Props{
+    imagen: string
+    nombre: string
+    descripcion: string
+}
+
+const {imagen, nombre, descripcion} = Astro.props
+---
+<div class="flex flex-col">
+    <img src={imagen} alt="logo empresa" class="w-24 mx-auto mb-5">
+    <h2 class="font-bold text-xl mx-5 text-center mb-2">{nombre}</h2>
+    <p class="text-sm text-zinc-500 mb-5 mx-5 text-center">{descripcion}</p>
+</div>

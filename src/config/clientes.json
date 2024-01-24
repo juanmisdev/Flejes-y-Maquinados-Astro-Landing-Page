@@ -1,0 +1,33 @@
+[
+    {
+        "imagen": "../../images/ara_logo.jpg",
+        "nombre": "Ara",
+        "descripcion": "Nuestro principal cliente durante los ultimos 10 años"
+    },
+    {
+        "imagen": "../../images/canasto_logo.jpg",
+        "nombre": "El Canasto",
+        "descripcion": "Supermercados mayoristas en todo el país"
+    },
+    {
+        "imagen": "../../images/proteinovo_logo.png",
+        "nombre": "Proteinovo",
+        "descripcion": "Granja avícola"
+
+    },
+    {
+        "imagen": "../../images/districascos_logo.png",
+        "nombre": "Districascos",
+        "descripcion": "Fabricantes de cascos para motociclets y demás accesorios"
+    },
+    {
+        "imagen": "../../images/droliados_logo.jpg",
+        "nombre": "Droaliados",
+        "descripcion":"Distribuidora de medicamentos"
+    },
+    {
+        "imagen": "../../images/proyectos_logo.png",
+        "nombre": "Proyectos Estructurales S.A.S",
+        "descripcion":  "Estructuras Metalicas"
+    }
+]

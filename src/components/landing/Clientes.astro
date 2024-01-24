@@ -1,0 +1,17 @@
+---
+import CardClientes from "../Card_Clientes.astro";
+import clientes from '../../config/clientes.json';
+
+---
+
+<section class="my-10">
+    <h2 class="font-bold text-5xl text-center pt-10 pb-3 text-blue-950">Nuestros Clientes</h2>
+    <h3 class="font-bold text-l text-zinc-500 text-center mb-5">Algunos de nuestros clientes durante los ultimos años</h3>
+    <div class="md:flex flex-row justify-evenly items-baseline mt-12 py-5 mx-2">
+        {clientes.map(cliente => {
+            return (
+                    <CardClientes imagen={cliente.imagen} nombre={cliente.nombre} descripcion={cliente.descripcion}/>
+            )
+        })}
+    </div>
+</section>
