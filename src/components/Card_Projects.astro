@@ -13,7 +13,7 @@ if (!images[imagen]) throw new Error(`"${imagen}" does not exist in glob: "src/i
 ---
 
 <div class="relative group">
-    <Image src={images[imagen]()} alt="Foto proyecto" class="object-fill w-56 h-56 transition-opacity duration-500 ease-in-out group-hover:opacity-20">
+    <Image src={images[imagen]()} alt="Foto proyecto" class="object-fill w-56 h-56 transition-opacity duration-500 ease-in-out group-hover:opacity-20"/>
     <div class=" w-56 h-56 absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
         <h2 class="text-blue-950 font-bold">{nombre}</h2>
         <p class="text-blue-950 font-semibold">{ciudad}</p>
